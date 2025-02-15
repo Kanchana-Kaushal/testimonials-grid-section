@@ -551,9 +551,6 @@
   .-z-10 {
     z-index: calc(10 * -1);
   }
-  .z-10 {
-    z-index: 10;
-  }
   .my-8 {
     margin-block: calc(var(--spacing) * 8);
   }
@@ -583,9 +580,6 @@
   }
   .h-8 {
     height: calc(var(--spacing) * 8);
-  }
-  .h-10 {
-    height: calc(var(--spacing) * 10);
   }
   .min-h-screen {
     min-height: 100vh;
@@ -630,23 +624,12 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
   .border-3 {
     border-style: var(--tw-border-style);
     border-width: 3px;
   }
-  .border-4 {
-    border-style: var(--tw-border-style);
-    border-width: 4px;
-  }
   .border-custom-Purple-300 {
     border-color: var(--color-custom-Purple-300);
-  }
-  .bg-amber-300 {
-    background-color: var(--color-amber-300);
   }
   .bg-custom-Darkblue {
     background-color: var(--color-custom-Darkblue);
@@ -666,21 +649,16 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
+  .font-Barlow {
+    font-family: var(--font-Barlow);
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
   }
-  .text-lg {
-    font-size: var(--text-lg);
-    line-height: var(--tw-leading, var(--text-lg--line-height));
-  }
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
-  }
-  .text-xl {
-    font-size: var(--text-xl);
-    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .text-xs {
     font-size: var(--text-xs);
@@ -705,9 +683,6 @@
   }
   .text-custom-Grey500 {
     color: var(--color-custom-Grey500);
-  }
-  .text-custom-Purple-300 {
-    color: var(--color-custom-Purple-300);
   }
   .text-white {
     color: var(--color-white);
@@ -765,19 +740,9 @@
       grid-row-start: 1;
     }
   }
-  .lg\:row-end-3 {
-    @media (width >= 64rem) {
-      grid-row-end: 3;
-    }
-  }
   .lg\:grid-cols-4 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-  .lg\:grid-rows-2 {
-    @media (width >= 64rem) {
-      grid-template-rows: repeat(2, minmax(0, 1fr));
     }
   }
 }
