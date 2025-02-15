@@ -17,36 +17,37 @@
         <link rel="stylesheet" href="styles/style.css" />
     </head>
     <body
-        class="font-Barlow min-h-screen flex items-center justify-center bg-custom-Grey100"
+        class="flex items-center justify-center min-h-screen bg-custom-Grey100"
     >
-        <main class="w-8/10 py-8">
-            <div>
-                <div
-                    class="bg-custom-Purple-500 p-8 rounded-lg my-8 drop-shadow-xl"
-                >
-                    <div class="flex items-center gap-5">
+        <main class="w-9/10 max-w-6xl my-8">
+            <div class="grid lg:grid-cols-4 lg:grid-rows-2 gap-8">
+                <div class="bg-custom-Purple-500 card lg:col-span-2 relative">
+                    <div class="flex gap-4 items-center">
                         <img
                             src="images/image-daniel.jpg"
                             alt=""
-                            class="rounded-full w-9 border-3 border-custom-Purple-300"
+                            class="rounded-full h-10 border-4 border-custom-Purple-300"
                         />
                         <div>
-                            <p class="font-bold text-custom-Purple-300">
+                            <p class="text-custom-Purple-300 font-medium">
                                 Daniel Clifford
                             </p>
-                            <p class="text-sm text-custom-Purple-300">
+                            <p class="text-custom-Purple-300 text-sm">
                                 Verified Graduate
                             </p>
                         </div>
                     </div>
-                    <p
-                        class="py-4 text-2xl font-semibold text-custom-Purple-50"
-                    >
+                    <img
+                        src="images/bg-pattern-quotation.svg"
+                        class="absolute top-0 right-16 w-[120px] hidden md:block -z-10"
+                        alt=""
+                    />
+                    <p class="font-semibold text-xl py-4 text-white">
                         I received a job offer mid-course, and the subjects I
                         learned were current, if not more so, in the company I
                         joined. I honestly feel I got every penny’s worth.
                     </p>
-                    <p class="text-custom-Purple-300 font-medium">
+                    <p class="text-sm text-custom-Purple-300">
                         “ I was an EMT for many years before I joined the
                         bootcamp. I’ve been looking to make a transition and
                         have heard some people who had an amazing experience
@@ -59,28 +60,24 @@
                     </p>
                 </div>
 
-                <div
-                    class="bg-custom-Grey500 p-8 rounded-lg my-8 drop-shadow-xl"
-                >
-                    <div class="flex items-center gap-5">
+                <div class="card bg-custom-Grey500">
+                    <div class="flex gap-4">
                         <img
                             src="images/image-jonathan.jpg"
                             alt=""
-                            class="rounded-full w-9 border-3 border-custom-Grey200"
+                            class="rounded-full h-10 border-4 border-custom-Purple-300"
                         />
                         <div>
-                            <p class="font-bold text-custom-Grey200">
+                            <p class="font-medium text-custom-Grey200">
                                 Jonathan Walters
                             </p>
-                            <p class="text-sm text-custom-Grey200">
-                                Verified Graduate
-                            </p>
+                            <p class="text-custom-Grey200">Verified Graduate</p>
                         </div>
                     </div>
-                    <p class="py-4 text-2xl font-semibold text-custom-Grey100">
+                    <p class="font-semibold text-xl py-4 text-custom-Grey100">
                         The team was very supportive and kept me motivated
                     </p>
-                    <p class="text-custom-Grey200 font-medium">
+                    <p class="text-sm text-custom-Grey200">
                         “ I started as a total newbie with virtually no coding
                         skills. I now work as a mobile engineer for a big
                         company. This was one of the best investments I’ve made
@@ -88,56 +85,54 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-8 rounded-lg my-8 drop-shadow-xl">
-                    <div class="flex items-center gap-5">
+                <div class="card bg-white">
+                    <div class="flex gap-4">
                         <img
                             src="images/image-jeanette.jpg"
                             alt=""
-                            class="rounded-full w-9 border-3 border-custom-Grey200"
+                            class="rounded-full h-10 border-4 border-custom-Purple-300"
                         />
                         <div>
-                            <p class="font-bold text-custom-Grey400">
+                            <p class="font-medium text-custom-Grey400">
                                 Jeanette Harmon
                             </p>
-                            <p class="text-sm text-custom-Grey400">
+                            <p class="text-custom-Grey400 text-sm">
                                 Verified Graduate
                             </p>
                         </div>
                     </div>
-                    <p class="py-4 text-2xl font-semibold text-custom-Grey500">
+                    <p class="font-semibold text-xl py-4 text-custom-Grey500">
                         An overall wonderful and rewarding experience
                     </p>
-                    <p class="text-custom-Grey400 font-medium">
+                    <p class="text-sm text-custom-Grey400">
                         “ Thank you for the wonderful experience! I now have a
                         job I really enjoy, and make a good living while doing
                         something I love. ”
                     </p>
                 </div>
 
-                <div
-                    class="bg-custom-Darkblue p-8 rounded-lg my-8 drop-shadow-xl"
-                >
-                    <div class="flex items-center gap-5">
+                <div class="card bg-custom-Darkblue lg:col-span-2">
+                    <div class="flex gap-4">
                         <img
                             src="images/image-patrick.jpg"
                             alt=""
-                            class="rounded-full w-9 border-3 border-custom-Purple-500"
+                            class="rounded-full h-10 border-4 border-custom-Purple-300"
                         />
                         <div>
-                            <p class="font-bold text-custom-Grey200">
+                            <p class="font-medium text-custom-Grey200">
                                 Patrick Abrams
                             </p>
-                            <p class="text-sm text-custom-Grey200">
+                            <p class="text-custom-Grey200 text-sm">
                                 Verified Graduate
                             </p>
                         </div>
                     </div>
-                    <p class="py-4 text-2xl font-semibold text-custom-Grey100">
+                    <p class="font-semibold text-xl py-4 text-custom-Grey100">
                         Awesome teaching support from TAs who did the bootcamp
                         themselves. Getting guidance from them and learning from
                         their experiences was easy.
                     </p>
-                    <p class="text-custom-Grey200 font-medium">
+                    <p class="text-sm text-custom-Grey200">
                         “ The staff seem genuinely concerned about my progress
                         which I find really refreshing. The program gave me the
                         confidence necessary to be able to go out in the world
@@ -148,26 +143,28 @@
                     </p>
                 </div>
 
-                <div class="bg-white p-8 rounded-lg my-8 drop-shadow-xl">
-                    <div class="flex items-center gap-5">
+                <div
+                    class="card bg-white lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3"
+                >
+                    <div class="flex gap-4">
                         <img
                             src="images/image-kira.jpg"
                             alt=""
-                            class="rounded-full w-9 border-3 border-custom-Grey200"
+                            class="rounded-full h-10 border-4 border-custom-Purple-300"
                         />
                         <div>
-                            <p class="font-bold text-custom-Grey400">
+                            <p class="font-medium text-custom-Grey400">
                                 Kira Whittle
                             </p>
-                            <p class="text-sm text-custom-Grey400">
+                            <p class="text-custom-Grey400 text-sm">
                                 Verified Graduate
                             </p>
                         </div>
                     </div>
-                    <p class="py-4 text-2xl font-semibold text-custom-Grey500">
+                    <p class="font-semibold text-xl py-4 text-custom-Grey500">
                         Such a life-changing experience. Highly recommended!
                     </p>
-                    <p class="text-custom-Grey400 font-medium">
+                    <p class="text-sm text-custom-Grey400">
                         “ Before joining the bootcamp, I’ve never written a line
                         of code. I needed some structure from professionals who
                         can help me learn programming step by step. I was

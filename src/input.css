@@ -15,3 +15,7 @@
 
     --font-Barlow: "Barlow Semi Condensed", serif;
 }
+
+.card {
+    @apply p-8 rounded-lg drop-shadow-xl;
+}
