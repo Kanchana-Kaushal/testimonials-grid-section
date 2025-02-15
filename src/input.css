@@ -17,5 +17,5 @@
 }
 
 .card {
-    @apply p-8 rounded-lg drop-shadow-xl;
+    @apply p-8 rounded-lg shadow-2xl shadow-custom-Grey500;
 }
