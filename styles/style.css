@@ -385,6 +385,7 @@
     --color-custom-Grey500: hsl(217, 19%, 35%);
     --color-custom-Darkblue: hsl(219, 29%, 14%);
     --color-custom-Black: hsl(0, 0%, 7%);
+    --color-custom-bg: #f6f6f6;
     --font-Barlow: "Barlow Semi Condensed", serif;
   }
 }
@@ -593,6 +594,12 @@
   .w-9\/10 {
     width: calc(9/10 * 100%);
   }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[110px\] {
+    width: 110px;
+  }
   .w-\[120px\] {
     width: 120px;
   }
@@ -607,6 +614,18 @@
   }
   .resize {
     resize: both;
+  }
+  .auto-rows-auto {
+    grid-auto-rows: auto;
+  }
+  .auto-rows-fr {
+    grid-auto-rows: minmax(0, 1fr);
+  }
+  .auto-rows-max {
+    grid-auto-rows: max-content;
+  }
+  .auto-rows-min {
+    grid-auto-rows: min-content;
   }
   .items-center {
     align-items: center;
@@ -643,6 +662,9 @@
   .bg-custom-Purple-500 {
     background-color: var(--color-custom-Purple-500);
   }
+  .bg-custom-bg {
+    background-color: var(--color-custom-bg);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -652,9 +674,9 @@
   .font-Barlow {
     font-family: var(--font-Barlow);
   }
-  .text-base {
-    font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
   }
   .text-sm {
     font-size: var(--text-sm);
@@ -709,6 +731,21 @@
   .md\:col-span-2 {
     @media (width >= 48rem) {
       grid-column: span 2 / span 2;
+    }
+  }
+  .md\:col-start-2 {
+    @media (width >= 48rem) {
+      grid-column-start: 2;
+    }
+  }
+  .md\:row-span-2 {
+    @media (width >= 48rem) {
+      grid-row: span 2 / span 2;
+    }
+  }
+  .md\:row-start-2 {
+    @media (width >= 48rem) {
+      grid-row-start: 2;
     }
   }
   .md\:block {
